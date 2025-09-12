@@ -1,6 +1,7 @@
 import { Header } from '@/components/header';
 import { Hero } from '@/components/hero';
 import { Experience } from '@/components/experience';
+import { Education } from '@/components/education';
 import { Projects } from '@/components/projects';
 import { Contact } from '@/components/contact';
 import { Footer } from '@/components/footer';
@@ -11,7 +12,7 @@ import { portfolioData } from '@/lib/data';
 export default function Home() {
   const { personalInfo, experience, projects, education, skills } = portfolioData;
 
-  const experienceText = [...experience, ...education].map(item => `${item.role} at ${item.company}. ${item.description}`).join('\n\n');
+  const experienceText = experience.map(item => `${item.role} at ${item.company}. ${item.description}`).join('\n\n');
   const projectText = projects.map(p => `${p.title}: ${p.description}`).join('\n\n');
 
   return (
@@ -21,7 +22,11 @@ export default function Home() {
         <Hero personalInfo={personalInfo} />
         
         <div id="experience" className="my-16 md:my-24 scroll-mt-20">
-          <Experience experience={experience} education={education} />
+          <Experience experience={experience} />
+        </div>
+
+        <div id="education" className="my-16 md:my-24 scroll-mt-20">
+          <Education education={education} />
         </div>
 
         <div id="skills" className="my-16 md:my-24 scroll-mt-20">

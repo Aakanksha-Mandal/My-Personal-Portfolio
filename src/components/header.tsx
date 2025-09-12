@@ -8,9 +8,10 @@ import { portfolioData } from '@/lib/data';
 
 const navLinks = [
   { href: '#experience', label: 'Experience' },
+  { href: '#education', label: 'Education' },
+  { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#contact', label: 'Contact' },
-  { href: '/resume', label: 'Resume' },
 ];
 
 export function Header() {
