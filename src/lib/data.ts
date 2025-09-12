@@ -19,7 +19,7 @@ export const portfolioData = {
     personalInfo: {
         name: "Aakanksha Mandal",
         title: "Computer Science Student",
-        bio: "I am a Computer Science student at the University of Windsor with a lifelong passion for technology. Early experiences with Python, Java, HTML, CSS, and JavaScript led me to develop mobile apps for Technovation Girls and participate in the Nexus program by Mathstronauts, where I explored Python, Machine Learning, and essential soft skills. I also created a Space Shooting Game using Python and graphic design.\n\nThrough co-op experiences at the University of Waterloo and the National Bank of Canada, I honed my skills in web development, system performance improvement, and documentation. Recently, at the Bank of Canada, I gained hands-on experience with Azure and DevOps, developing Bash and PowerShell scripts to automate Azure Logic App source code synchronization, designing reusable Azure DevOps deployment templates, standardizing configuration management across projects, and creating pipeline alert systems with HTML email templates. These projects strengthened my technical expertise, problem-solving skills, and understanding of Agile workflows.\n\nWith a proactive approach and certifications in networking, graphic design, and health and safety, I am excited to contribute to dynamic teams, make meaningful impacts, and continue growing professionally.",
+        bio: "A passionate Computer Science student specializing in AI at the University of Windsor, with hands-on experience in web development, Azure, and DevOps from co-ops at major financial institutions. I am eager to apply my skills in automation and agile workflows to make a meaningful impact and drive innovation.",
         image: findImage('profile'),
         socials: {
             linkedin: "https://www.linkedin.com/in/aakanksha-mandal/",
@@ -28,30 +28,52 @@ export const portfolioData = {
         },
         resumeUrl: "/resume"
     },
+    skills: [
+        {
+            category: "Programming Languages",
+            skills: ["Python", "Java", "C", "Bash Scripting", "PowerShell Scripting"]
+        },
+        {
+            category: "Web Development",
+            skills: ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            category: "Azure Technologies",
+            skills: ["Logic Apps", "Function Apps", "DevOps", "Data Factory", "Blob Storage", "Log Analytics"]
+        },
+        {
+            category: "Tools & Technologies",
+            skills: ["Visual Studio", "Android Studio", "Kanban", "Agile", "Jira", "Confluence"]
+        },
+        {
+            category: "Operating Systems",
+            skills: ["UNIX", "Windows"]
+        }
+    ],
     experience: [
         {
             role: "Co-Op, Student Developer",
             company: "Bank of Canada",
             period: "May 2025 - Aug 2025",
-            description: "Developed a custom Bash and PowerShell script to automate synchronization of Azure Logic App source code from Kudu, enabling local version control with overwrite capability. Designed reusable Azure DevOps deployment templates for Logic Apps and JavaScript Function Apps, with child pipelines and environment-specific configs (dev, stg, prd). Created documentation to standardize deployments across multiple teams and environments. Standardized configuration management across three projects by implementing a shared + environment-specific folder structure, reusable deployment template, and child pipelines. Created documentation and presentations to support adoption, improving consistency and reducing manual effort in deployments. Created comprehensive documentation and a professional HTML email template for an Azure Logic App that generates pipeline alerts, ensuring consistent, customizable alerts. Migrated and deployed the alerts Logic App across three projects, including creating configs, testing, and monitoring alerts."
+            description: "Developed a custom Bash and PowerShell script to automate synchronization of Azure Logic App source code from Kudu, enabling local version control with overwrite capability.\nDesigned reusable Azure DevOps deployment templates for Logic Apps and JavaScript Function Apps, with child pipelines and environment-specific configs (dev, stg, prd). Created documentation to standardize deployments across multiple teams and environments.\nStandardized configuration management across three projects by implementing a shared + environment-specific folder structure, reusable deployment template, and child pipelines. Created documentation and presentations to support adoption, improving consistency and reducing manual effort in deployments.\nCreated comprehensive documentation and a professional HTML email template for an Azure Logic App that generates pipeline alerts, ensuring consistent, customizable alerts. Migrated and deployed the alerts Logic App across three projects, including creating configs, testing, and monitoring alerts."
         },
         {
             role: "Internship, Developer Intern",
             company: "National Bank of Canada (NBIN - Wealth)",
             period: "Jun 2024 - Aug 2024",
-            description: "Created onboarding documentation for Git, Java, and VS Code to streamline setup for new developers. Improved security by identifying and removing sensitive credentials from BitBucket repositories. Set up DataDog monitoring and alerts for Compass R2 and R2 Adapter to CX, enhancing system visibility. Uninstalled AppDynamics from IBM WebSphere servers, boosting performance. Developed a bash script to automate log cleanup, simplifying maintenance."
+            description: "Created onboarding documentation for Git, Java, and VS Code to streamline setup for new developers.\nImproved security by identifying and removing sensitive credentials from BitBucket repositories.\nSet up DataDog monitoring and alerts for Compass R2 and R2 Adapter to CX, enhancing system visibility.\nUninstalled AppDynamics from IBM WebSphere servers, boosting performance.\nDeveloped a bash script to automate log cleanup, simplifying maintenance."
         },
         {
             role: "Co-Op, Research Assistant",
             company: "University of Waterloo",
             period: "Sep 2022 - Jan 2023",
-            description: "Conducted research for a Virtual Reality (VR) project. Performed hardware and software components testing for the DMX Interface Selection Project. Produced written reports and guides about project specifications and procedures. Initiated communication with several hockey teams to facilitate testing processes. Diagnosed and resolved technical issues with proficiency."
+            description: "Conducted research for a Virtual Reality (VR) project.\nPerformed hardware and software components testing for the DMX Interface Selection Project.\nProduced written reports and guides about project specifications and procedures.\nInitiated communication with several hockey teams to facilitate testing processes.\nDiagnosed and resolved technical issues with proficiency."
         },
         {
             role: "Co-Op, Computer Programming Assistant",
             company: "Wilmot Technologies Inc.",
             period: "Jun 2022 - Jul 2022",
-            description: "Utilized HTML and CSS to build 3 interactive websites. Implemented responsive design principles to ensure optimal viewing experience across various devices. Designed and programmed a website utilizing the Bootstrap framework to improve functionality and design aesthetics."
+            description: "Utilized HTML and CSS to build 3 interactive websites.\nImplemented responsive design principles to ensure optimal viewing experience across various devices.\nDesigned and programmed a website utilizing the Bootstrap framework to improve functionality and design aesthetics."
         }
     ],
     education: [

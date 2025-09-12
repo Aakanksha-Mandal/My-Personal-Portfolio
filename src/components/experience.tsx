@@ -33,7 +33,11 @@ export function Experience({ experience, education }: ExperienceProps) {
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>
-                  <p className="text-foreground/80">{item.description}</p>
+                  <ul className="list-disc space-y-2 pl-6 text-foreground/80">
+                    {item.description.split('\n').map((point, i) => (
+                      <li key={i}>{point}</li>
+                    ))}
+                  </ul>
                 </AccordionContent>
               </AccordionItem>
             ))}
