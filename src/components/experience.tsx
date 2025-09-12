@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Accordion,
@@ -21,17 +21,7 @@ export function Experience({ experience }: ExperienceProps) {
       <Card className="mx-auto max-w-4xl shadow-lg">
         <CardContent className="p-6">
           {experience.map((job, idx) => (
-            <div key={idx} className="grid grid-cols-[50px_1fr] gap-x-6 gap-y-2 py-6 first:pt-0 last:pb-0">
-              <div className="flex h-[50px] w-[50px] items-center justify-center rounded-lg bg-background shadow-md">
-                <Image
-                  src={job.logo.imageUrl}
-                  alt={`${job.company} logo`}
-                  width={35}
-                  height={35}
-                  className="object-contain"
-                  data-ai-hint={job.logo.imageHint}
-                />
-              </div>
+            <div key={idx} className="py-6 first:pt-0 last:pb-0">
               <div>
                 <div className="flex flex-col justify-between md:flex-row">
                   <h3 className="font-headline text-lg font-semibold">{job.role}</h3>
