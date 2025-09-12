@@ -93,7 +93,8 @@ export const portfolioData = {
             role: "Bachelor of Science in Computer Science Honours",
             company: "University of Toronto",
             period: "Sep 2023 - Apr 2024",
-            description: "Relevant Courses: Introduction to Computer Programming, Introduction to Computer Science."
+            description: "",
+            completedCourses: ["Introduction to Computer Programming", "Introduction to Computer Science"]
         }
     ],
     projects: [
