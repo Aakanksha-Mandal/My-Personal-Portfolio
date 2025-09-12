@@ -27,7 +27,7 @@ export function Projects({ projects }: { projects: typeof portfolioData.projects
       </h2>
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
-          <Card key={index} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+          <Card key={index} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-primary/20">
              <CardWrapper project={project}>
               <CardHeader className="flex flex-row items-start justify-between">
                 <div className="flex items-center gap-4">
