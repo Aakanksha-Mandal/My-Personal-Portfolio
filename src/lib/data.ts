@@ -54,28 +54,28 @@ export const portfolioData = {
             role: "Co-Op, Student Developer",
             company: "Bank of Canada",
             period: "May 2025 - Aug 2025",
-            logo: findImage('boc-logo'),
+            logoId: 'boc-logo',
             description: "Developed a custom Bash and PowerShell script to automate synchronization of Azure Logic App source code from Kudu, enabling local version control with overwrite capability.\nDesigned reusable Azure DevOps deployment templates for Logic Apps and JavaScript Function Apps, with child pipelines and environment-specific configs (dev, stg, prd). Created documentation to standardize deployments across multiple teams and environments.\nStandardized configuration management across three projects by implementing a shared + environment-specific folder structure, reusable deployment template, and child pipelines. Created documentation and presentations to support adoption, improving consistency and reducing manual effort in deployments.\nCreated comprehensive documentation and a professional HTML email template for an Azure Logic App that generates pipeline alerts, ensuring consistent, customizable alerts. Migrated and deployed the alerts Logic App across three projects, including creating configs, testing, and monitoring alerts."
         },
         {
             role: "Internship, Developer Intern",
             company: "National Bank of Canada (NBIN - Wealth)",
             period: "Jun 2024 - Aug 2024",
-            logo: findImage('nbc-logo'),
+            logoId: 'nbc-logo',
             description: "Created onboarding documentation for Git, Java, and VS Code to streamline setup for new developers.\nImproved security by identifying and removing sensitive credentials from BitBucket repositories.\nSet up DataDog monitoring and alerts for Compass R2 and R2 Adapter to CX, enhancing system visibility.\nUninstalled AppDynamics from IBM WebSphere servers, boosting performance.\nDeveloped a bash script to automate log cleanup, simplifying maintenance."
         },
         {
             role: "Co-Op, Research Assistant",
             company: "University of Waterloo",
             period: "Sep 2022 - Jan 2023",
-            logo: findImage('uwaterloo-logo'),
+            logoId: 'uwaterloo-logo',
             description: "Conducted research for a Virtual Reality (VR) project.\nPerformed hardware and software components testing for the DMX Interface Selection Project.\nProduced written reports and guides about project specifications and procedures.\nInitiated communication with several hockey teams to facilitate testing processes.\nDiagnosed and resolved technical issues with proficiency."
         },
         {
             role: "Co-Op, Computer Programming Assistant",
             company: "Wilmot Technologies Inc.",
             period: "Jun 2022 - Jul 2022",
-            logo: findImage('wti-logo'),
+            logoId: 'wti-logo',
             description: "Utilized HTML and CSS to build 3 interactive websites.\nImplemented responsive design principles to ensure optimal viewing experience across various devices.\nDesigned and programmed a website utilizing the Bootstrap framework to improve functionality and design aesthetics."
         }
     ],
@@ -83,8 +83,11 @@ export const portfolioData = {
          {
             role: "Bachelor of Computer Science Honours",
             company: "University of Windsor",
-            period: "Sep 2024 - Dec 2027",
-            description: "AI Specialization and Mathematics Minor. GPA: 91.7%. Relevant Courses: Systems Programming, Object-Oriented Programming, Data Structures & Algorithms, Computer Networks."
+            period: "Sep 2024 - Apr 2027",
+            description: "AI Specialization and Mathematics Minor.",
+            grade: "91.36%",
+            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)"],
+            inProgressCourses: ["Intro to Software Engineering", "Object-Oriented Software Analysis and Design", "Theory of Computation", "Network Security", "Numerical Analysis for Computer Science"]
         },
         {
             role: "Bachelor of Science in Computer Science Honours",

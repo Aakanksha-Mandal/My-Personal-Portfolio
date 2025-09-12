@@ -1,6 +1,7 @@
 import { GraduationCap } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import type { portfolioData } from '@/lib/data';
+import { Badge } from '@/components/ui/badge';
 
 type EducationProps = {
   education: typeof portfolioData.education;
@@ -28,6 +29,25 @@ export function Education({ education }: EducationProps) {
                     </div>
                     <p className="text-md mb-2 text-muted-foreground">{edu.company}</p>
                     <p className="text-sm text-foreground/80">{edu.description}</p>
+                    {edu.grade && (
+                       <p className="mt-2 text-sm font-semibold text-primary">Grade: {edu.grade}</p>
+                    )}
+                    {edu.completedCourses && (
+                        <div className="mt-3">
+                            <h4 className="mb-2 text-sm font-semibold text-foreground">Completed Courses:</h4>
+                            <div className="flex flex-wrap gap-2">
+                                {edu.completedCourses.map(course => <Badge variant="secondary" key={course}>{course}</Badge>)}
+                            </div>
+                        </div>
+                    )}
+                     {edu.inProgressCourses && (
+                        <div className="mt-3">
+                            <h4 className="mb-2 text-sm font-semibold text-foreground">In Progress Courses:</h4>
+                            <div className="flex flex-wrap gap-2">
+                                {edu.inProgressCourses.map(course => <Badge variant="secondary" key={course}>{course}</Badge>)}
+                            </div>
+                        </div>
+                    )}
                 </div>
               </div>
             ))}
