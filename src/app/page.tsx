@@ -3,7 +3,6 @@ import { Hero } from '@/components/hero';
 import { Experience } from '@/components/experience';
 import { Education } from '@/components/education';
 import { Projects } from '@/components/projects';
-import { Contact } from '@/components/contact';
 import { Footer } from '@/components/footer';
 import { Skills } from '@/components/skills';
 import { portfolioData } from '@/lib/data';
@@ -33,9 +32,6 @@ export default function Home() {
           <Projects projects={projects} />
         </div>
 
-        <div id="contact" className="my-20 md:my-28 scroll-mt-20">
-          <Contact />
-        </div>
       </main>
       <Footer personalInfo={personalInfo} />
     </div>
