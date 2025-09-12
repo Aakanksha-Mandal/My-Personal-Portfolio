@@ -19,11 +19,11 @@ export const portfolioData = {
     personalInfo: {
         name: "Aakanksha Mandal",
         title: "Computer Science Student & Aspiring AI Specialist",
-        bio: "A passionate Computer Science student at the University of Windsor with a flair for AI, web development, and DevOps.",
+        bio: "A passionate Computer Science student with a flair for AI, web development, and DevOps. Experienced in automating processes and building scalable solutions.",
         image: findImage('profile'),
         socials: {
             linkedin: "https://www.linkedin.com/in/aakanksha-mandal/",
-            github: "https://github.com/GenXCoding",
+            github: "https://github.com/Aakanksha-Mandal",
             email: "mailto:mandal5@uwindsor.ca"
         },
     },
