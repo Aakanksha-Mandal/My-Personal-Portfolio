@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile",
+      "description": "Professional headshot of Aakanksha Mandal",
+      "imageUrl": "https://picsum.photos/seed/101/400/400",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "project1",
+      "description": "Abstract representation of a project hub",
+      "imageUrl": "https://picsum.photos/seed/201/600/400",
+      "imageHint": "technology network"
+    },
+    {
+      "id": "project2",
+      "description": "Visual for an e-commerce platform",
+      "imageUrl": "https://picsum.photos/seed/202/600/400",
+      "imageHint": "online shopping"
+    },
+    {
+      "id": "project3",
+      "description": "Image for a task manager application",
+      "imageUrl": "https://picsum.photos/seed/203/600/400",
+      "imageHint": "checklist productivity"
+    },
+    {
+      "id": "resume-profile",
+      "description": "Profile picture for the resume page",
+      "imageUrl": "https://picsum.photos/seed/102/200/200",
+      "imageHint": "professional portrait"
+    }
+  ]
 }

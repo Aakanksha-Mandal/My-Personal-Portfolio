@@ -1,3 +1,41 @@
+import { Header } from '@/components/header';
+import { Hero } from '@/components/hero';
+import { Experience } from '@/components/experience';
+import { Projects } from '@/components/projects';
+import { Contact } from '@/components/contact';
+import { Footer } from '@/components/footer';
+import { SkillsAnalyzer } from '@/components/skills-analyzer';
+import { portfolioData } from '@/lib/data';
+
 export default function Home() {
-  return <></>;
+  const { personalInfo, experience, projects, education } = portfolioData;
+
+  const experienceText = [...experience, ...education].map(item => `${item.role} at ${item.company}. ${item.description}`).join('\n\n');
+  const projectText = projects.map(p => `${p.title}: ${p.description}`).join('\n\n');
+
+  return (
+    <div className="flex min-h-screen flex-col">
+      <Header />
+      <main className="container mx-auto flex-grow px-4 py-8 md:px-6 lg:px-8">
+        <Hero personalInfo={personalInfo} />
+        
+        <div id="experience" className="my-16 md:my-24 scroll-mt-20">
+          <Experience experience={experience} education={education} />
+        </div>
+        
+        <div className="my-16 md:my-24">
+          <SkillsAnalyzer experienceText={experienceText} projectText={projectText} />
+        </div>
+        
+        <div id="projects" className="my-16 md:my-24 scroll-mt-20">
+          <Projects projects={projects} />
+        </div>
+
+        <div id="contact" className="my-16 md:my-24 scroll-mt-20">
+          <Contact />
+        </div>
+      </main>
+      <Footer personalInfo={personalInfo} />
+    </div>
+  );
 }
