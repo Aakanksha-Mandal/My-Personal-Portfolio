@@ -102,36 +102,29 @@ export const portfolioData = {
             title: "GenX Coding YouTube Channel",
             description: "Created Python tutorials, including quiz games, sound integration with Pygame, calculators, and more.",
             tags: ["Python", "Pygame", "YouTube", "Content Creation"],
-            liveUrl: "#",
-            githubUrl: "#"
+            url: "https://www.youtube.com/@genxcoding55/videos"
         },
         {
             title: "Remind Me Android App",
             description: "Developed an Android app for task and event management, integrating calling, messaging, and maps.",
             tags: ["Android", "Java", "XML", "Mobile App"],
-            liveUrl: "#",
-            githubUrl: "#"
+            url: "https://www.youtube.com/watch?v=QrmcLz7-tk8"
         },
         {
             title: "Recycling Waste Android App",
             description: "Built an app to educate users on waste disposal through a quiz game, with audio and visual feedback.",
             tags: ["Android", "MIT App Inventor", "Gamification"],
-            liveUrl: "#",
-            githubUrl: "#"
+            url: "https://www.youtube.com/watch?v=goJw__nqihU&list=LL&index=17"
         },
         {
             title: "Mathstronauts Game Development",
             description: "Developed an interactive game with Python and Pygame, implementing graphics, animations, and game mechanics.",
-            tags: ["Python", "Pygame", "Game Development"],
-            liveUrl: "#",
-            githubUrl: "#"
+            tags: ["Python", "Pygame", "Game Development"]
         },
         {
             title: "Mathstronauts Nexus",
             description: "Created various Python applications including calculators, simulations, and a Java Swing button game.",
-            tags: ["Python", "Java", "Java Swing", "Simulation"],
-            liveUrl: "#",
-            githubUrl: "#"
+            tags: ["Python", "Java", "Java Swing", "Simulation"]
         }
     ]
 };

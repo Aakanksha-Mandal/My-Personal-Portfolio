@@ -18,7 +18,11 @@ export function Education({ education }: EducationProps) {
           <div className="relative space-y-8">
             <div className="absolute left-3 top-4 hidden h-full w-0.5 bg-border md:block"></div>
             {education.map((edu, idx) => (
-              <div key={idx} className="relative pl-8">
+              <div 
+                key={idx} 
+                className="relative pl-8 animate-fade-in"
+                style={{ animationDelay: `${idx * 150}ms`, animationFillMode: 'both' }}
+              >
                 <div className="absolute left-0 top-1.5 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-primary-foreground">
                   <GraduationCap className="h-4 w-4" />
                 </div>
