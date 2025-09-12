@@ -42,7 +42,7 @@ const summarizeSkillsPrompt = ai.definePrompt({
 
   Project Description: {{{projectText}}}
 
-  Skills Summary:`, // Removed the extraneous single quote
+  Skills Summary:`,
 });
 
 const summarizeSkillsFlow = ai.defineFlow(
