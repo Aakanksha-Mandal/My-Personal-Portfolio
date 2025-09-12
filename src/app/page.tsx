@@ -14,26 +14,26 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="container mx-auto flex-grow px-4 py-8 md:px-6 lg:px-8">
+      <main className="container mx-auto flex-grow px-4 py-12 md:px-6 lg:px-8">
         <Hero personalInfo={personalInfo} />
         
-        <div id="experience" className="my-16 md:my-24 scroll-mt-20">
+        <div id="experience" className="my-20 md:my-28 scroll-mt-20">
           <Experience experience={experience} />
         </div>
 
-        <div id="education" className="my-16 md:my-24 scroll-mt-20">
+        <div id="education" className="my-20 md:my-28 scroll-mt-20">
           <Education education={education} />
         </div>
 
-        <div id="skills" className="my-16 md:my-24 scroll-mt-20">
+        <div id="skills" className="my-20 md:my-28 scroll-mt-20">
           <Skills skills={skills} />
         </div>
         
-        <div id="projects" className="my-16 md:my-24 scroll-mt-20">
+        <div id="projects" className="my-20 md:my-28 scroll-mt-20">
           <Projects projects={projects} />
         </div>
 
-        <div id="contact" className="my-16 md:my-24 scroll-mt-20">
+        <div id="contact" className="my-20 md:my-28 scroll-mt-20">
           <Contact />
         </div>
       </main>

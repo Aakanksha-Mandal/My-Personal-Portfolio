@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Accordion,
@@ -18,8 +17,8 @@ export function Experience({ experience }: ExperienceProps) {
       <h2 className="mb-8 text-center font-headline text-3xl font-bold text-primary md:text-4xl">
         Work Experience
       </h2>
-      <Card className="mx-auto max-w-4xl shadow-lg">
-        <CardContent className="p-6">
+      <Card className="mx-auto max-w-4xl border-0 bg-transparent shadow-none md:border md:bg-card md:shadow-lg">
+        <CardContent className="p-0 md:p-6">
           {experience.map((job, idx) => (
             <div key={idx} className="py-6 first:pt-0 last:pb-0">
               <div>

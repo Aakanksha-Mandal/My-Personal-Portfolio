@@ -43,11 +43,11 @@ export function Contact() {
       <h2 className="mb-8 text-center font-headline text-3xl font-bold text-primary md:text-4xl">
         Get in Touch
       </h2>
-      <Card className="mx-auto max-w-xl shadow-lg">
+      <Card className="mx-auto max-w-xl border-0 bg-transparent shadow-none md:border md:bg-card md:shadow-lg">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)}>
-            <CardHeader>
-              <CardTitle>Contact Me</CardTitle>
+            <CardHeader className="text-center">
+              <CardTitle className="text-2xl">Contact Me</CardTitle>
               <CardDescription>
                 Have a question or want to collaborate? Fill out the form below.
               </CardDescription>
@@ -94,7 +94,7 @@ export function Contact() {
               />
             </CardContent>
             <CardFooter>
-                <SubmitButton defaultText="Send Message" loadingText="Sending..." />
+                <SubmitButton defaultText="Send Message" loadingText="Sending..." className="w-full" />
             </CardFooter>
           </form>
         </Form>
