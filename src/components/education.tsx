@@ -13,7 +13,7 @@ export function Education({ education }: EducationProps) {
       <h2 className="mb-8 text-center font-headline text-3xl font-bold text-primary md:text-4xl">
         Education
       </h2>
-      <Card className="mx-auto max-w-3xl shadow-lg">
+      <Card className="mx-auto max-w-3xl shadow-lg transition-all duration-300 hover:shadow-primary/20">
         <CardContent className="p-6">
           <div className="relative space-y-8">
             <div className="absolute left-3 top-4 hidden h-full w-0.5 bg-border md:block"></div>

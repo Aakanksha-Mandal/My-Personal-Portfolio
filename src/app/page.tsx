@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="container mx-auto flex-grow px-4 py-12 md:px-6 lg:px-8">
+      <main className="container mx-auto flex-grow px-4 py-12 md:px-6 lg:px-8 animate-fade-in">
         <Hero personalInfo={personalInfo} />
         
         <div id="experience" className="my-20 md:my-28 scroll-mt-20">
