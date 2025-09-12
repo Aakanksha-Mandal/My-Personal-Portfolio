@@ -5,15 +5,11 @@ import { Education } from '@/components/education';
 import { Projects } from '@/components/projects';
 import { Contact } from '@/components/contact';
 import { Footer } from '@/components/footer';
-import { SkillsAnalyzer } from '@/components/skills-analyzer';
 import { Skills } from '@/components/skills';
 import { portfolioData } from '@/lib/data';
 
 export default function Home() {
   const { personalInfo, experience, projects, education, skills } = portfolioData;
-
-  const experienceText = experience.map(item => `${item.role} at ${item.company}. ${item.description}`).join('\n\n');
-  const projectText = projects.map(p => `${p.title}: ${p.description}`).join('\n\n');
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -31,10 +27,6 @@ export default function Home() {
 
         <div id="skills" className="my-16 md:my-24 scroll-mt-20">
           <Skills skills={skills} />
-        </div>
-        
-        <div className="my-16 md:my-24">
-          <SkillsAnalyzer experienceText={experienceText} projectText={projectText} />
         </div>
         
         <div id="projects" className="my-16 md:my-24 scroll-mt-20">
