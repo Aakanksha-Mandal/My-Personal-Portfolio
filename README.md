@@ -15,7 +15,7 @@ This is my **personal portfolio website**, built to showcase my work, skills, an
 - **Next.js** — React framework for building the frontend  
 - **TypeScript** — type safety throughout the project  
 - **Tailwind CSS** — utility-first styling  
-- **Firebase** — hosting / backend integration  
+- **Vercel** — hosting 
 - **PostCSS** — for processing styles  
 
 ---
