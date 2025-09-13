@@ -30,7 +30,7 @@ export const portfolioData = {
     skills: [
         {
             category: "Programming Languages",
-            skills: ["Python", "Java", "C", "Bash Scripting", "PowerShell Scripting"]
+            skills: ["Python", "Java", "C", "Bash Scripting", "PowerShell Scripting", "YAML"]
         },
         {
             category: "Web Development",
@@ -38,7 +38,7 @@ export const portfolioData = {
         },
         {
             category: "Azure Technologies",
-            skills: ["Logic Apps", "Function Apps", "DevOps", "Data Factory", "Blob Storage", "Log Analytics"]
+            skills: ["Logic Apps", "Function Apps", "Databricks Apps", "Databricks Jobs", "Databricks Asset Bundles", "DevOps", "Data Factory", "Blob Storage", "Log Analytics"]
         },
         {
             category: "Tools & Technologies",
