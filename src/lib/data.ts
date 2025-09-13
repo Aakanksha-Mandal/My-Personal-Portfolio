@@ -51,31 +51,33 @@ export const portfolioData = {
     ],
     experience: [
         {
+            role: "Part Time, Student Developer",
+            company: "Bank of Canada",
+            period: "Sep 2025 - Present",
+            description: "Designing reusable Databricks Asset Bundle deployment templates for apps, jobs, and notebooks, with environment-specific configurations (dev, stg, prd). Creating documentation to standardize deployments across multiple teams and environments."
+        },
+        {
             role: "Co-Op, Student Developer",
             company: "Bank of Canada",
             period: "May 2025 - Aug 2025",
-            logoId: 'boc-logo',
             description: "Developed a custom Bash and PowerShell script to automate synchronization of Azure Logic App source code from Kudu, enabling local version control with overwrite capability.\nDesigned reusable Azure DevOps deployment templates for Logic Apps and JavaScript Function Apps, with child pipelines and environment-specific configs (dev, stg, prd). Created documentation to standardize deployments across multiple teams and environments.\nStandardized configuration management across three projects by implementing a shared + environment-specific folder structure, reusable deployment template, and child pipelines. Created documentation and presentations to support adoption, improving consistency and reducing manual effort in deployments.\nCreated comprehensive documentation and a professional HTML email template for an Azure Logic App that generates pipeline alerts, ensuring consistent, customizable alerts. Migrated and deployed the alerts Logic App across three projects, including creating configs, testing, and monitoring alerts."
         },
         {
             role: "Internship, Developer Intern",
             company: "National Bank of Canada (NBIN - Wealth)",
             period: "Jun 2024 - Aug 2024",
-            logoId: 'nbc-logo',
             description: "Created onboarding documentation for Git, Java, and VS Code to streamline setup for new developers.\nImproved security by identifying and removing sensitive credentials from BitBucket repositories.\nSet up DataDog monitoring and alerts for Compass R2 and R2 Adapter to CX, enhancing system visibility.\nUninstalled AppDynamics from IBM WebSphere servers, boosting performance.\nDeveloped a bash script to automate log cleanup, simplifying maintenance."
         },
         {
             role: "Co-Op, Research Assistant",
             company: "University of Waterloo",
             period: "Sep 2022 - Jan 2023",
-            logoId: 'uwaterloo-logo',
             description: "Conducted research for a Virtual Reality (VR) project.\nPerformed hardware and software components testing for the DMX Interface Selection Project.\nProduced written reports and guides about project specifications and procedures.\nInitiated communication with several hockey teams to facilitate testing processes.\nDiagnosed and resolved technical issues with proficiency."
         },
         {
             role: "Co-Op, Computer Programming Assistant",
             company: "Wilmot Technologies Inc.",
             period: "Jun 2022 - Jul 2022",
-            logoId: 'wti-logo',
             description: "Utilized HTML and CSS to build 3 interactive websites.\nImplemented responsive design principles to ensure optimal viewing experience across various devices.\nDesigned and programmed a website utilizing the Bootstrap framework to improve functionality and design aesthetics."
         }
     ],
