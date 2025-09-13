@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is my **personal portfolio website**, built to showcase my work, skills, and creative projects.
+This is my **personal portfolio website**, built to showcase my work, skills, and creative projects. The website was **AI-assisted**, using Firebase Studio AI to help generate the code efficiently.
 
 ---
 
@@ -15,8 +15,9 @@ This is my **personal portfolio website**, built to showcase my work, skills, an
 - **Next.js** — React framework for building the frontend  
 - **TypeScript** — type safety throughout the project  
 - **Tailwind CSS** — utility-first styling  
-- **Vercel** — hosting 
+- **Vercel** — hosting  
 - **PostCSS** — for processing styles  
+- **Firebase Studio AI** — AI-assisted coding tool used to generate parts of the website  
 
 ---
 
