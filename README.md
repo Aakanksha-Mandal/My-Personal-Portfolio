@@ -6,7 +6,7 @@ This is my **personal portfolio website**, built to showcase my work, skills, an
 
 ## Live Demo
 
-🌐 [View Portfolio](https://studio--studio-8596328216-fb6dd.us-central1.hosted.app)
+🌐 [View Portfolio](https://my-personal-portfolio-azure-psi.vercel.app)
 
 ---
 
