@@ -6,7 +6,7 @@ This is my **personal portfolio website**, built to showcase my work, skills, an
 
 ## Live Demo
 
-🌐 [View Portfolio](https://my-personal-portfolio-azure-psi.vercel.app)
+🌐 [View Portfolio](https://aakanksha-mandal.vercel.app)
 
 ---
 
