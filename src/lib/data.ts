@@ -19,7 +19,7 @@ export const portfolioData = {
     personalInfo: {
         name: "Aakanksha Mandal",
         title: "Computer Science Student & Aspiring AI Specialist",
-        bio: "A passionate Computer Science student with a flair for AI, web development, and DevOps. Experienced in automating processes and building scalable solutions.",
+        bio: "A passionate Computer Science student with a flair for AI and DevOps. Experienced in automating processes and building scalable solutions.",
         image: findImage('profile'),
         socials: {
             linkedin: "https://www.linkedin.com/in/aakanksha-mandal/",
@@ -54,7 +54,7 @@ export const portfolioData = {
             role: "Part Time, Student Developer",
             company: "Bank of Canada",
             period: "Sep 2025 - Present",
-            description: "Designing reusable Databricks Asset Bundle deployment templates for apps, jobs, and notebooks, with environment-specific configurations (dev, stg, prd). Creating documentation to standardize deployments across multiple teams and environments."
+            description: "Designing reusable Databricks Asset Bundle deployment templates for apps, jobs, and notebooks, with environment-specific configurations (dev, stg, prd). Creating documentation to standardize deployments across multiple teams and environments.\nBuilt and validated Azure Data Factory pipeline for ingesting data from external SFTP source into the raw zone.\nMigrated and deployed shared Databricks bundles and Logic Apps into centralized repositories, ensuring consistent configuration and deployment."
         },
         {
             role: "Co-Op, Student Developer",
@@ -86,7 +86,7 @@ export const portfolioData = {
             role: "Bachelor of Computer Science Honours",
             company: "University of Windsor",
             period: "Sep 2024 - Apr 2027",
-            description: "AI Specialization and Mathematics Minor.",
+            description: "AI Specialization and Mathematics Minor",
             grade: "91.36%",
             completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)"],
             inProgressCourses: ["Intro to Software Engineering", "Object-Oriented Software Analysis and Design", "Theory of Computation", "Network Security", "Numerical Analysis for Computer Science"]
@@ -95,7 +95,7 @@ export const portfolioData = {
             role: "Bachelor of Science in Computer Science Honours",
             company: "University of Toronto",
             period: "Sep 2023 - Apr 2024",
-            description: "",
+            description: "Transfered to UWindsor after First Year",
             completedCourses: ["Introduction to Computer Programming", "Introduction to Computer Science"]
         }
     ],
