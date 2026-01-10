@@ -5,7 +5,6 @@ import { Education } from '@/components/education';
 import { Projects } from '@/components/projects';
 import { Footer } from '@/components/footer';
 import { Skills } from '@/components/skills';
-import { Certifications } from '@/components/certifications';
 import { portfolioData } from '@/lib/data';
 
 export default function Home() {
@@ -32,12 +31,7 @@ export default function Home() {
         <div id="projects" className="my-20 md:my-28 scroll-mt-20">
           <Projects projects={projects} />
         </div>
-
-        <div id="certifications" className="my-20 md:my-28 scroll-mt-20">
-          <Certifications certifications={certifications} />
-        </div>
         
-
       </main>
       <Footer personalInfo={personalInfo} />
     </div>
