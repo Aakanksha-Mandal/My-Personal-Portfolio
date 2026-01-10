@@ -7,10 +7,12 @@ import { Button } from '@/components/ui/button';
 import { portfolioData } from '@/lib/data';
 
 const navLinks = [
+  { href: '#hero', label: 'Home' },
   { href: '#experience', label: 'Experience' },
   { href: '#education', label: 'Education' },
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
+  { href: '#certifications', label: 'Certifications' },
 ];
 
 export function Header() {

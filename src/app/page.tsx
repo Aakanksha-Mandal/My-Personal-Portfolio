@@ -4,11 +4,12 @@ import { Experience } from '@/components/experience';
 import { Education } from '@/components/education';
 import { Projects } from '@/components/projects';
 import { Footer } from '@/components/footer';
-import { Skills } from '@/components/skills';
+import { Skills } from '@/components/skills'
+import { Certifications } from '@/components/certifications';
 import { portfolioData } from '@/lib/data';
 
 export default function Home() {
-  const { personalInfo, experience, projects, education, skills } = portfolioData;
+  const { personalInfo, experience, projects, education, skills, certifications } = portfolioData;
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -30,6 +31,10 @@ export default function Home() {
         
         <div id="projects" className="my-20 md:my-28 scroll-mt-20">
           <Projects projects={projects} />
+        </div>
+
+        <div id="certifications" className="my-20 md:my-28 scroll-mt-20">
+          <Certifications certifications={certifications} />
         </div>
         
       </main>
