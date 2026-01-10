@@ -130,19 +130,5 @@ export const portfolioData = {
             tags: ["Python", "Java", "Java Swing", "Simulation"],
             url: "https://github.com/Aakanksha-Mandal/Mathstronauts-Nexus"
         }
-    ],
-    certifications: [
-        {
-            org: "DataCamp",
-            certifications: ["Introduction to Python", "Intermediate Python", "Introduction to Data Science in Python"]
-        },
-        {
-            org: "Databricks",
-            certifications: ["Get Started with Databricks for Data Warehousing", "Get Started with Databricks for Generative AI", "Get Started with SQL Analytics and BI on Databricks"]
-        },
-        {
-            org: "Mathstronauts",
-            certifications: ["Introduction to Game Development Program", "Nexus Program"]
-        }
     ]
 };
