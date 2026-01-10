@@ -88,7 +88,7 @@ export const portfolioData = {
             period: "Sep 2024 - Apr 2027",
             description: "AI Specialization and Mathematics Minor",
             grade: "90.75%",
-            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)", "Intro to Software Engineering (93%)", "Object-Oriented Software Analysis and Design (87%)", "Theory of Computation (91%)", "Network Security (88%)", "Numerical Analysis for Computer Science (88%)"],
+            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)", "Introduction to Software Engineering (93%)", "Object-Oriented Software Analysis and Design (87%)", "Theory of Computation (91%)", "Network Security (88%)", "Numerical Analysis for Computer Science (88%)"],
             inProgressCourses: ["Database Management Systems", "Data Analytics I", "Advanced Object Oriented System Design Using C++", "Artificial Intelligence Concepts", "Principle of Programming Languages"]
         },
         {
