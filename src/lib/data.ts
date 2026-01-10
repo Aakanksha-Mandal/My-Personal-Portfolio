@@ -87,9 +87,9 @@ export const portfolioData = {
             company: "University of Windsor",
             period: "Sep 2024 - Apr 2027",
             description: "AI Specialization and Mathematics Minor",
-            grade: "91.36%",
-            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)"],
-            inProgressCourses: ["Intro to Software Engineering", "Object-Oriented Software Analysis and Design", "Theory of Computation", "Network Security", "Numerical Analysis for Computer Science"]
+            grade: "90.75%",
+            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)", "Intro to Software Engineering (93%)", "Object-Oriented Software Analysis and Design (87%)", "Theory of Computation (91%)", "Network Security (88%)", "Numerical Analysis for Computer Science (88%)"],
+            inProgressCourses: ["Database Management Systems", "Data Analytics I", "Advanced Object Oriented System Design Using C++", "Artificial Intelligence Concepts", "Principle of Programming Languages"]
         },
         {
             role: "Bachelor of Science in Computer Science Honours",
@@ -129,6 +129,20 @@ export const portfolioData = {
             description: "Created various Python applications including calculators, simulations, and a Java Swing button game.",
             tags: ["Python", "Java", "Java Swing", "Simulation"],
             url: "https://github.com/Aakanksha-Mandal/Mathstronauts-Nexus"
+        }
+    ],
+    certifications: [
+        {
+            organization: "DataCamp",
+            certificates: ["Introduction to Python", "Intermediate Python", "Introduction to Data Science in Python"]
+        },
+        {
+            organization: "Databricks",
+            certificates: ["Get Started with Databricks for Data Warehousing", "Get Started with Databricks for Generative AI", "Get Started with SQL Analytics and BI on Databricks"]
+        },
+        {
+            organization: "Mathstronauts",
+            certificates: ["Introduction to Game Development Program", "Nexus Program"]
         }
     ]
 };
