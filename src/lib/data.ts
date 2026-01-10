@@ -131,18 +131,18 @@ export const portfolioData = {
             url: "https://github.com/Aakanksha-Mandal/Mathstronauts-Nexus"
         }
     ],
-    certifications: [
+    skills: [
         {
-            organization: "DataCamp",
-            certificates: ["Introduction to Python", "Intermediate Python", "Introduction to Data Science in Python"]
+            category: "DataCamp",
+            skills: ["Introduction to Python", "Intermediate Python", "Introduction to Data Science in Python"]
         },
         {
-            organization: "Databricks",
-            certificates: ["Get Started with Databricks for Data Warehousing", "Get Started with Databricks for Generative AI", "Get Started with SQL Analytics and BI on Databricks"]
+            category: "Databricks",
+            skills: ["Get Started with Databricks for Data Warehousing", "Get Started with Databricks for Generative AI", "Get Started with SQL Analytics and BI on Databricks"]
         },
         {
-            organization: "Mathstronauts",
-            certificates: ["Introduction to Game Development Program", "Nexus Program"]
+            category: "Mathstronauts",
+            skills: ["Introduction to Game Development Program", "Nexus Program"]
         }
     ]
 };
