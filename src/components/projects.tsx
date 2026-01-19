@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Youtube, Recycle, Gamepad2, Code, bellRing, ExternalLink, BotMessageSquare } from 'lucide-react';
+import { Youtube, Recycle, Gamepad2, Code, BellRing, ExternalLink, BotMessageSquare } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import type { portfolioData } from '@/lib/data';
@@ -7,7 +7,7 @@ import type { portfolioData } from '@/lib/data';
 const iconMap: { [key: string]: React.ReactNode } = {
   'JARVIS - AI Assistant with Voice': <BotMessageSquare className="h-8 w-8 text-primary" />,
   'GenX Coding YouTube Channel': <Youtube className="h-8 w-8 text-primary" />,
-  'Remind Me Android App': <bellRing className="h-8 w-8 text-primary" />,
+  'Remind Me Android App': <BellRing className="h-8 w-8 text-primary" />,
   'Recycling Waste Android App': <Recycle className="h-8 w-8 text-primary" />,
   'Mathstronauts Game Development': <Gamepad2 className="h-8 w-8 text-primary" />,
   'Mathstronauts Nexus': <Code className="h-8 w-8 text-primary" />,
