@@ -140,7 +140,7 @@ export const portfolioData = {
     certifications: [
         {
             organization: "DataCamp",
-            certifications: ["Introduction to Python", "Intermediate Python", "Introduction to Data Science in Python", "Supervised Learning with scikit-learn" "Introduction to SQL", "Intermediate SQL"]
+            certifications: ["Introduction to Python", "Intermediate Python", "Introduction to Data Science in Python", "Supervised Learning with scikit-learn", "Introduction to SQL", "Intermediate SQL"]
         },
         {
             organization: "Databricks",
