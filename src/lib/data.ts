@@ -101,6 +101,12 @@ export const portfolioData = {
     ],
     projects: [
         {
+            title: "JARVIS - AI Assistant with Voice",
+            description: "Built and deployed a voice-enabled AI assistant in Python that supports natural conversation, task management, and spoken responses.",
+            tags: ["Python", "Transformers", "Gradio", "gTTs", "Hugging Face Spaces"],
+            url: "https://github.com/Aakanksha-Mandal/Jarvis-AI-Assistant"
+        },
+        {
             title: "GenX Coding YouTube Channel",
             description: "Created Python tutorials, including quiz games, sound integration with Pygame, calculators, and more.",
             tags: ["Python", "Pygame", "YouTube", "Content Creation"],
@@ -134,7 +140,7 @@ export const portfolioData = {
     certifications: [
         {
             organization: "DataCamp",
-            certifications: ["Introduction to Python", "Intermediate Python", "Introduction to Data Science in Python", "Introduction to SQL", "Intermediate SQL"]
+            certifications: ["Introduction to Python", "Intermediate Python", "Introduction to Data Science in Python", "Supervised Learning with scikit-learn" "Introduction to SQL", "Intermediate SQL"]
         },
         {
             organization: "Databricks",
