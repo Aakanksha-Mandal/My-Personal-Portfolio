@@ -1,10 +1,11 @@
 import Link from 'next/link';
-import { Youtube, Code, ToyBrick, Calculator, Bot, ExternalLink } from 'lucide-react';
+import { Youtube, Code, ToyBrick, Calculator, Bot, ExternalLink, BotMessageSquare } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import type { portfolioData } from '@/lib/data';
 
 const iconMap: { [key: string]: React.ReactNode } = {
+  'JARVIS - AI Assistant with Voice': <BotMessageSquare className="h-8 w-8 text-primary" />,
   'GenX Coding YouTube Channel': <Youtube className="h-8 w-8 text-primary" />,
   'Remind Me Android App': <Bot className="h-8 w-8 text-primary" />,
   'Recycling Waste Android App': <Code className="h-8 w-8 text-primary" />,
