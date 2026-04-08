@@ -89,7 +89,7 @@ export const portfolioData = {
             description: "AI Specialization and Mathematics Minor",
             grade: "90.75%",
             completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)", "Introduction to Software Engineering (93%)", "Object-Oriented Software Analysis and Design (87%)", "Theory of Computation (91%)", "Network Security (88%)", "Numerical Analysis for Computer Science (88%)"],
-            inProgressCourses: ["Database Management Systems", "Data Analytics I", "Advanced Object Oriented System Design Using C++", "Artificial Intelligence Concepts", "Principle of Programming Languages"]
+            inProgressCourses: ["Database Management Systems", "Data Analytics I", "Artificial Intelligence Concepts", "Principle of Programming Languages"]
         },
         {
             role: "Bachelor of Science in Computer Science Honours",
@@ -100,6 +100,12 @@ export const portfolioData = {
         }
     ],
     projects: [
+        {
+            title: "RateMyProf AI Summarizer & RAG Agent",
+            description: "Developed a full-stack, privacy-first AI agent using LangChain (LCEL) and Ollama that leverages a Pinecone RAG pipeline with cross-encoder re-ranking to synthesize structured professor insights.",
+            tags: ["Large Language Models (LLM)", "LangChain", "Vector Database (Pinecone)", "Python", "Streamlit", "Artificial Intelligence (AI)"],
+            url: "https://github.com/Aakanksha-Mandal/COMP-4400-RateMyProf-AI-Summarizer-Project"
+        },
         {
             title: "JARVIS - AI Assistant with Voice",
             description: "Built and deployed a voice-enabled AI assistant in Python that supports natural conversation, task management, and spoken responses.",
