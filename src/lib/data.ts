@@ -51,10 +51,16 @@ export const portfolioData = {
     ],
     experience: [
         {
+            role: "Internship, Student Developer",
+            company: "Bank of Canada",
+            period: "Apr 2026 - Present",
+            description: "Built and validated Azure Data Factory pipelines for ingesting data from external SFTP source into the raw, standardized, and curated zones."
+        },
+        {
             role: "Part Time, Student Developer",
             company: "Bank of Canada",
-            period: "Sep 2025 - Present",
-            description: "Designing reusable Databricks Asset Bundle deployment templates for apps, jobs, and notebooks, with environment-specific configurations (dev, stg, prd). Creating documentation to standardize deployments across multiple teams and environments.\nBuilt and validated Azure Data Factory pipeline for ingesting data from external SFTP source into the raw zone.\nMigrated and deployed shared Databricks bundles and Logic Apps into centralized repositories, ensuring consistent configuration and deployment."
+            period: "Sep 2025 - Apr 2026",
+            description: "Designing reusable Databricks Asset Bundle deployment templates for apps, jobs, and notebooks, with environment-specific configurations (dev, stg, prd).\nCreating documentation to standardize deployments across multiple teams and environments.\nBuilt and validated Azure Data Factory pipeline for ingesting data from external SFTP source into the raw zone.\nMigrated and deployed shared Databricks bundles and Logic Apps into centralized repositories, ensuring consistent configuration and deployment."
         },
         {
             role: "Co-Op, Student Developer",
@@ -87,9 +93,9 @@ export const portfolioData = {
             company: "University of Windsor",
             period: "Sep 2024 - Apr 2027",
             description: "AI Specialization and Mathematics Minor",
-            grade: "90.75%",
-            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)", "Introduction to Software Engineering (93%)", "Object-Oriented Software Analysis and Design (87%)", "Theory of Computation (91%)", "Network Security (88%)", "Numerical Analysis for Computer Science (88%)"],
-            inProgressCourses: ["Database Management Systems", "Data Analytics I", "Artificial Intelligence Concepts", "Principle of Programming Languages"]
+            grade: "90.05%",
+            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)", "Introduction to Software Engineering (93%)", "Object-Oriented Software Analysis and Design (87%)", "Theory of Computation (91%)", "Network Security (88%)", "Numerical Analysis for Computer Science (88%)", "Database Management Systems (93%)", "Data Analytics I (96%)", "Artificial Intelligence Concepts", "Principle of Programming Languages (92%)"],
+            inProgressCourses: ["Operating Systems Fundamentals", "World Wide Web Information System Development"]
         },
         {
             role: "Bachelor of Science in Computer Science Honours",
@@ -97,6 +103,21 @@ export const portfolioData = {
             period: "Sep 2023 - Apr 2024",
             description: "Transfered to UWindsor after First Year",
             completedCourses: ["Introduction to Computer Programming", "Introduction to Computer Science"]
+        },
+        {
+            role: "Univeristy Cooperative Education Program (UCEP), Economics",
+            company: "University of Waterloo",
+            period: "Sep 2022 - Jan 2023",
+            description: "Selected for a competitive academic enrichment program for high-achieving secondary school students.\nCompleted ECON 101 (Introduction to Microeconomics) at the University of Waterloo and earned a university credit alongside Grade 12 coursework and Co-op credits.\nWorked as a Research Assistant with Dr. David Wang in the Computer Engineering Department, gaining early research experience in a university environment.",
+            grade: "80%",
+            completedCourses: ["Introduction to Microeconomics (80%)"]
+        },
+        {
+            role: "High School Diploma",
+            company: "St. Mary's Catholic High School, Kitchener, ON, Canada",
+            period: "Jan 2019 - Jun 2023",
+            description: "Completed the Specialist High Skills Major (SHSM) program in Information & Communication Technology.\nFinished Grade 12 Advanced Functions, Data Management, and Computer Programming during Grade 11.\nConsistently maintained a 90%+ average and received the Merit Award for Grades 9, 10, and 11.\nAwarded distinction certificates in the University of Waterloo Pascal and Fryer competitions; actively competed in Waterloo Math contests from 2017–2021.\nServed as an active member of the high school Math Team for four consecutive years.\nAuthored two short stories published in the anthologies Beyond Time and Where the Winds Blow by Polar Expressions Publishing.",
+            grade: "93%"
         }
     ],
     projects: [
