@@ -54,13 +54,13 @@ export const portfolioData = {
             role: "Internship, Student Developer",
             company: "Bank of Canada",
             period: "Apr 2026 - Present",
-            description: "Built and validated Azure Data Factory pipelines for ingesting data from external SFTP source into the raw, standardized, and curated zones."
+            description: "Developed Azure Data Factory pipelines to ingest data from an external SFTP server into landing, raw, and standardized zones, and created a Databricks Python notebook to transform and standardize the data."
         },
         {
             role: "Part Time, Student Developer",
             company: "Bank of Canada",
             period: "Sep 2025 - Apr 2026",
-            description: "Designing reusable Databricks Asset Bundle deployment templates for apps, jobs, and notebooks, with environment-specific configurations (dev, stg, prd).\nCreating documentation to standardize deployments across multiple teams and environments.\nBuilt and validated Azure Data Factory pipeline for ingesting data from external SFTP source into the raw zone.\nMigrated and deployed shared Databricks bundles and Logic Apps into centralized repositories, ensuring consistent configuration and deployment."
+            description: "Designing reusable Databricks Asset Bundle deployment templates for apps, jobs, and notebooks, with environment-specific configurations (dev, stg, prd).\nCreating documentation to standardize deployments across multiple teams and environments.\nBuilt and validated Azure Data Factory pipeline for ingesting data from external SFTP source into the raw zone.\nMigrated and deployed shared Databricks bundles and Logic Apps into centralized repositories, ensuring consistent configuration and deployment.\nStandardized and cleaned up ServiceNow Configuration Items (CIs) by creating and retiring Data Pipeline and Application CIs, validating pipeline relationships, and linking Application CIs with Data Pipeline CIs."
         },
         {
             role: "Co-Op, Student Developer",
