@@ -107,6 +107,7 @@ export const portfolioData = {
             role: "Bachelor of Science in Computer Science Honours",
             company: "University of Toronto",
             period: "Sep 2023 - Apr 2024",
+            grade: "3.29 CGPA",
             description: "Transfered to UWindsor after First Year",
             completedCourses: ["Introduction to Computer Programming", "Introduction to Computer Science"]
         },
