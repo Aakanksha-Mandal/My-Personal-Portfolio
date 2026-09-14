@@ -30,7 +30,7 @@ export const portfolioData = {
     skills: [
         {
             category: "Programming Languages",
-            skills: ["Python", "Java", "C", "Bash", "PowerShell"]
+            skills: ["Python", "Java", "C", "Bash", "PowerShell", "SQL"]
         },
         {
             category: "Web & Data Formats",
@@ -38,11 +38,11 @@ export const portfolioData = {
         },
         {
             category: "Azure Technologies",
-            skills: ["Logic Apps", "Function Apps", "Databricks (Apps, Jobs, Asset Bundles)", "DevOps", "Data Factory", "Blob Storage", "Log Analytics"]
+            skills: ["Logic Apps", "Function Apps", "Databricks (Apps, Jobs, Asset Bundles, Notebooks)", "DevOps", "Data Factory", "Blob Storage", "Log Analytics"]
         },
         {
             category: "Tools & Technologies",
-            skills: ["Visual Studio", "Android Studio", "Kanban", "Agile", "Jira", "Confluence", "CI/CD Pipelines"]
+            skills: ["Visual Studio", "Android Studio", "Oracle SQL Developer", "Kanban", "Agile", "Jira", "Confluence", "CI/CD Pipelines"]
         },
         {
             category: "Operating Systems",
@@ -51,10 +51,16 @@ export const portfolioData = {
     ],
     experience: [
         {
+            role: "Part-Time, Student Developer",
+            company: "Bank of Canada",
+            period: "Sep 2026 - Present",
+            description: "Migrate existing Datastage Rules to a Databricks python notebook for ingesting time series data into Databricks Unity Catalogue."
+        },
+        {
             role: "Internship, Student Developer",
             company: "Bank of Canada",
-            period: "Apr 2026 - Present",
-            description: "Developed Azure Data Factory pipelines to ingest data from an external SFTP server into landing, raw, and standardized zones, and created a Databricks Python notebook to transform and standardize the data."
+            period: "Apr 2026 - Aug 2026",
+            description: "Engineered multiple Azure Data Factory pipelines to ingest data from external SFTP servers and R Drive into landing, raw, and standardized zones.\nCreated Databricks Python notebooks to transform and standardize ingested data across pipeline stages.\nMigrated existing DataStage rules to file validation Databricks Python notebooks for data ingestion into Databricks Unity Catalog.\nMigrated existing Oracle SQL Database tables to Databricks Unity Catalog using ADF pipelines and Databricks Python notebooks.\nConfigured ServiceNow dependencies on NetApp for Data Pipeline Configuration Items (CIs) utilizing the R drive as a landing zone."
         },
         {
             role: "Part Time, Student Developer",
@@ -93,9 +99,9 @@ export const portfolioData = {
             company: "University of Windsor",
             period: "Sep 2024 - Apr 2027",
             description: "AI Specialization and Mathematics Minor",
-            grade: "90.05%",
-            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)", "Introduction to Software Engineering (93%)", "Object-Oriented Software Analysis and Design (87%)", "Theory of Computation (91%)", "Network Security (88%)", "Numerical Analysis for Computer Science (88%)", "Database Management Systems (93%)", "Data Analytics I (96%)", "Artificial Intelligence Concepts", "Principle of Programming Languages (92%)"],
-            inProgressCourses: ["Operating Systems Fundamentals", "World Wide Web Information System Development"]
+            grade: "90.18%",
+            completedCourses: ["Key Concepts in Computer Science (95%)", "Systems Programming (92%)", "Object-Oriented Programming using Java (88%)", "Computer Architecture I: Digital Design (86%)", "Language, Grammar & Translators (97%)", "Theoretical Foundations of Computer Science (94%)", "Data Structures & Algorithms (100%)", "Computer Architecture II: Microprocessor Programming (82%)", "Computer Networks (88%)", "Introduction to Software Engineering (93%)", "Object-Oriented Software Analysis and Design (87%)", "Theory of Computation (91%)", "Network Security (88%)", "Numerical Analysis for Computer Science (88%)", "Database Management Systems (93%)", "Data Analytics I (96%)", "Artificial Intelligence Concepts", "Principle of Programming Languages (92%)", "Operating Systems Fundamentals (83%)", "World Wide Web Information System Development (100%)"],
+            inProgressCourses: ["Agile Software Development", "Advanced Topics in Artifical Intelligence I", "Advanced & Practical Database Systems", "Big Data Analytics & Database Design", "Project Management: Techniques & Tools"]
         },
         {
             role: "Bachelor of Science in Computer Science Honours",
