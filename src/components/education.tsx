@@ -38,7 +38,7 @@ export function Education({ education }: EducationProps) {
                     )}
                     {edu.completedCourses && (
                         <div className="mt-3">
-                            <h4 className="mb-2 text-sm font-semibold text-foreground">Completed Courses:</h4>
+                            <h4 className="mb-2 text-sm font-semibold text-foreground">Completed Relevant Courses:</h4>
                             <div className="flex flex-wrap gap-2">
                                 {edu.completedCourses.map(course => <Badge variant="secondary" key={course}>{course}</Badge>)}
                             </div>
@@ -46,7 +46,7 @@ export function Education({ education }: EducationProps) {
                     )}
                      {edu.inProgressCourses && (
                         <div className="mt-3">
-                            <h4 className="mb-2 text-sm font-semibold text-foreground">In Progress Courses:</h4>
+                            <h4 className="mb-2 text-sm font-semibold text-foreground">In Progress Relevant Courses:</h4>
                             <div className="flex flex-wrap gap-2">
                                 {edu.inProgressCourses.map(course => <Badge variant="secondary" key={course}>{course}</Badge>)}
                             </div>
